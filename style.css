@@ -1,4 +1,87 @@
+.top-banner {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+}
+body {
+  /* background-image: url("images/bg.jpg"); */
+
+  margin: 0px;
+}
 .half-width {
-  width: 40%;
+  width: 50%;
   float: left;
+}
+
+.name-highlight {
+  color: orange;
+}
+
+h1 {
+  padding: 10;
+  margin-left: 80px;
+  font-size: 50px;
+}
+.nav_name {
+  padding: 10px;
+}
+
+/* Navbar anchor area */
+.elements {
+  color: blue;
+  padding: 10px;
+}
+.elements a {
+  font-size: 30px;
+}
+.elements a:hover {
+  font-size: 40px;
+  color: white;
+  background-color: navy;
+}
+nav {
+  background-color: rgb(233, 121, 80);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.half-width img {
+  width: 100%;
+}
+nav a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.link_button {
+  margin-left: 80px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: orange;
+}
+.link_button:hover {
+  font-size: 30px;
+  background-color: navy;
+  color: rgb(234, 234, 234);
+
+  font-weight: 700;
+}
+/* 2nd Section */
+.some-talk {
+  margin-top: 300px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.section2 {
+  background-image: url("images/dream-bg.png");
+
+  background-repeat: no-repeat;
+
+  background-position: right;
 }
