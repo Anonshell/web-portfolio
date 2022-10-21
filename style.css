@@ -4,6 +4,7 @@
 }
 section {
   height: 500px;
+  padding-bottom: 150px;
 }
 body {
   /* background-image: url("images/bg.jpg"); */
@@ -63,6 +64,8 @@ nav a {
   padding: 10px;
   background-color: orange;
 }
+
+/* Anchor-hover */
 .link_button:hover {
   font-size: 30px;
   background-color: navy;
@@ -72,16 +75,67 @@ nav a {
 }
 /* 2nd Section */
 .some-talk {
-  margin-top: 300px;
+  margin-top: 260px;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 300;
   padding: 20px;
+  border: 3px solid;
+  margin-left: 10px;
+  border-color: chocolate;
 }
+
+/* Background-image */
 
 .section2 {
   background-image: url("images/dream-bg.png");
-
+  padding-bottom: 150px;
   background-repeat: no-repeat;
 
   background-position: right;
+}
+
+/* Section-Images */
+.sec1-img {
+  width: 550px;
+  margin-left: 150px;
+}
+
+.sec2-img {
+  width: 550px;
+}
+
+/* Experince area */
+
+.sec3 {
+  float: left;
+  width: 30%;
+
+  height: 50%;
+  padding: 10px;
+  margin: 50px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+}
+/* border class coloring */
+.full-stack {
+  margin-left: 180px;
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(15, 204, 43), rgb(203, 223, 29));
+  border-image-slice: 1;
+}
+
+.Experiences-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.baby-dev {
+  margin-left: 180px;
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(218, 103, 15), rgb(229, 34, 20));
+  border-image-slice: 1;
+}
+.download-resume {
+  margin-top: 400px;
 }
