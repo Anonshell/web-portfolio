@@ -10,6 +10,7 @@ body {
   /* background-image: url("images/bg.jpg"); */
 
   margin: 0px;
+  font-family: "sans-serif";
 }
 .half-width {
   width: 50%;
@@ -149,9 +150,8 @@ nav a {
 .ft2 {
   height: 100px;
   background-color: rgb(24, 72, 162);
-  text-align: center;
+
   color: aliceblue;
-  font-size: 50px;
 }
 
 .ft3 {
